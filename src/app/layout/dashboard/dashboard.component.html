@@ -1,0 +1,16 @@
+<div>
+    <h1>
+        Welcome!
+    </h1>
+    <br>
+    <h3>
+        Please mention your role
+    </h3>
+    <input type="radio" name="role" value="admin" (change)="getRole($event.target.value)">
+    <label>Admin</label>
+    <br>
+    <input type="radio" name="role" value="teacher" (change)="getRole($event.target.value)">
+    <label>Teacher</label>
+    <br><br><br>
+    <button type="button" (click)="updateRole()">Submit</button>
+</div>
