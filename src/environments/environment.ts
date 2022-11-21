@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   http_timeout: 10, //unit: seconds, 0: no timeout
-  apiUrl: "http://localhost:8080/"
+  apiUrl: "http://localhost:4200/"
 };
 
 /*
